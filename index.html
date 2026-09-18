@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Lautaro Fochesatto, Data Engineer Junior y Analista de Datos en Córdoba, Argentina. Experiencia en pipelines, migraciones cloud y calidad de datos.">
+    <meta name="author" content="Lautaro Fochesatto">
+    <meta name="theme-color" content="#fffaf7">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:title" content="Lautaro Fochesatto | Data Engineer">
+    <meta property="og:description" content="Pipelines claros, datos confiables y soluciones analíticas que conectan necesidades de negocio con ingeniería.">
+    <title>Lautaro Fochesatto | Data Engineer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%2320272b'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial,sans-serif' font-size='20' font-weight='700' fill='%23fffaf7'%3ELF%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+        <nav class="nav container" aria-label="Navegación principal">
+            <a href="#inicio" class="brand" aria-label="Lautaro Fochesatto, ir al inicio">
+                <span class="brand-mark" aria-hidden="true">LF</span>
+                <span class="brand-name">Lautaro Fochesatto</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+                <span class="sr-only">Abrir menú</span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#sobre-mi">Perfil</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#tecnologias">Stack</a></li>
+                <li><a href="#contacto" class="nav-cta">Hablemos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span aria-hidden="true"></span>Córdoba, Argentina</p>
+                    <h1 id="hero-title">Convierto datos complejos en <em>información confiable.</em></h1>
+                    <p class="hero-role">Data Engineer Junior <span aria-hidden="true">·</span> Analista de Datos</p>
+                    <p class="hero-description">Experiencia práctica en migraciones analíticas hacia la nube, construcción de pipelines y modelado de datos. Trabajo para que la información llegue clara, consistente y lista para decidir.</p>
+                    <div class="hero-actions">
+                        <a href="#experiencia" class="button button-primary">Ver experiencia <span aria-hidden="true">↓</span></a>
+                        <a href="https://linkedin.com/in/lautaro-fochesatto" class="button button-ghost" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+                    </div>
+                </div>
+                <div class="pipeline-card" aria-label="Flujo ilustrativo de ingeniería de datos">
+                    <div class="pipeline-topline"><span>DE LA FUENTE AL DATO</span><span class="diagram-label">Flujo ilustrativo</span></div>
+                    <div class="orchestration"><img src="assets/icons/apacheairflow.svg" width="22" height="22" alt=""><span><strong>Apache Airflow</strong><small>Orquestación del flujo</small></span><span class="orchestration-mark" aria-hidden="true">⌘</span></div>
+                    <ol class="pipeline-flow">
+                        <li class="pipeline-node"><span class="node-icon" aria-hidden="true">01</span><div><span class="node-label">FUENTES</span><strong>Oracle · SQL Server</strong></div></li>
+                        <li class="pipeline-node"><span class="node-icon" aria-hidden="true">02</span><div><span class="node-label">PLATAFORMA DE DATOS</span><strong>Snowflake</strong></div><img src="assets/icons/snowflake.svg" width="26" height="26" alt=""></li>
+                        <li class="pipeline-node"><span class="node-icon" aria-hidden="true">03</span><div><span class="node-label">TRANSFORMACIÓN</span><strong>dbt · SQL</strong><small>staging → intermediate → marts</small></div></li>
+                        <li class="pipeline-node"><span class="node-icon" aria-hidden="true">04</span><div><span class="node-label">CONSUMO</span><strong>Power BI</strong></div><img src="assets/icons/powerbi.svg" width="25" height="25" alt=""></li>
+                    </ol>
+                    <p class="pipeline-footer"><span aria-hidden="true">↳</span> Calidad, integridad y consistencia en cada entrega.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="section about" aria-labelledby="about-title">
+            <div class="container about-grid">
+                <div><p class="section-kicker">01 / PERFIL</p><h2 id="about-title">Ingeniería con mirada analítica.</h2></div>
+                <div class="about-copy">
+                    <p>Me especializo en conectar fuentes, transformar información y construir capas de datos que otros equipos puedan usar con confianza.</p>
+                    <p>Combino SQL avanzado, Python y herramientas cloud con una mirada cercana al negocio: entiendo los indicadores, colaboro con equipos funcionales y cuido la calidad de cada entrega.</p>
+                    <ul class="principles" aria-label="Principios de trabajo"><li><span>01</span> Datos trazables</li><li><span>02</span> Modelos mantenibles</li><li><span>03</span> Comunicación clara</li></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section experience" aria-labelledby="experience-title">
+            <div class="container">
+                <div class="section-heading"><div><p class="section-kicker">02 / EXPERIENCIA</p><h2 id="experience-title">Experiencia profesional</h2></div><p>De la necesidad de negocio al dato listo para análisis.</p></div>
+                <div class="timeline">
+                    <article class="timeline-item featured">
+                        <div class="timeline-meta"><time datetime="2024-09">SEP 2024</time><span aria-hidden="true">—</span><time datetime="2025-10">OCT 2025</time></div>
+                        <div class="timeline-content">
+                            <div class="role-heading"><div><h3>Consultor Analítico</h3><p>Seidor Analytics · Remoto</p></div><span class="tag">Experiencia principal</span></div>
+                            <ul class="impact-list"><li>Migración analítica de SAP Business Objects hacia Power BI.</li><li>Desarrollo de pipelines desde Oracle y SQL Server hacia Snowflake.</li><li>Modelos dbt en capas de staging, intermediate y marts.</li><li>Orquestación de DAGs con Apache Airflow y automatizaciones con Python.</li><li>Validación de calidad, integridad y consistencia de datos.</li><li>Colaboración con equipos funcionales para definir KPIs.</li></ul>
+                            <div class="experience-flow" aria-label="Recorrido de los datos"><div><small>FUENTES</small><span>Oracle · SQL Server</span></div><span aria-hidden="true">→</span><div><small>MODELOS</small><span>Snowflake · dbt</span></div><span aria-hidden="true">→</span><div><small>CONSUMO</small><span>Power BI</span></div></div>
+                            <div class="inline-stack" aria-label="Tecnologías utilizadas"><span>SQL</span><span>Snowflake</span><span>dbt</span><span>Airflow</span><span>Python</span><span>Power BI</span></div>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-meta"><time datetime="2024-05">MAY 2024</time><span aria-hidden="true">—</span><time datetime="2024-07">JUL 2024</time></div>
+                        <div class="timeline-content compact"><div><h3>Teaching Assistant</h3><p class="company">Henry Tech LLC</p></div><p>Soporte a estudiantes en SQL, Python, Power BI, modelado de datos y lógica de programación.</p></div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-meta"><time datetime="2021-03">MAR 2021</time><span aria-hidden="true">—</span><time datetime="2023-09">SEP 2023</time></div>
+                        <div class="timeline-content compact"><div><h3>Auxiliar Administrativo</h3><p class="company">MAFELU S.A.S.</p></div><p>Gestión de licitaciones mediante ComprAR y elaboración de informes de ventas con Excel avanzado.</p></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="section stack" aria-labelledby="stack-title">
+            <div class="container">
+                <div class="section-heading"><div><p class="section-kicker">03 / STACK</p><h2 id="stack-title">Un stack.<br><em>Muchas conexiones.</em></h2></div><p>Explorá las herramientas con las que conecto fuentes, construyo modelos y preparo datos para el análisis.</p></div>
+                <div class="stack-explorer" data-stack-explorer>
+                    <div class="map-caption"><span>EL ECOSISTEMA</span><span>6 áreas · un mismo propósito</span></div>
+                    <div class="star-map" data-star-map>
+                        <svg class="stack-connections" data-connections aria-hidden="true" focusable="false"></svg>
+                        <div class="stack-core" data-stack-core>
+                            <svg class="core-symbol" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 9v30M9 16l30 16M9 32l30-16" stroke="currentColor" stroke-width="1.5"/><path d="M24 17l6 3.5v7L24 31l-6-3.5v-7Z" fill="currentColor"/><g fill="#202a2e" stroke="currentColor" stroke-width="1.5"><circle cx="24" cy="7" r="3"/><circle cx="24" cy="41" r="3"/><circle cx="8" cy="15" r="3"/><circle cx="40" cy="33" r="3"/><circle cx="8" cy="33" r="3"/><circle cx="40" cy="15" r="3"/></g></svg>
+                            <span class="core-label">Mi stack</span>
+                            <p>Herramientas conectadas<br>por función</p>
+                            <button type="button" data-stack-toggle aria-expanded="true" aria-controls="stack-categories" hidden><span data-toggle-label>Explorar herramientas</span><span class="toggle-sign" aria-hidden="true">+</span></button>
+                        </div>
+                        <div class="stack-categories" id="stack-categories">
+                        <article class="dimension" data-category="orchestration">
+                            <h3><span class="category-static"><span>01</span>Orquestación e integración</span><button type="button" data-category-button aria-pressed="false" aria-controls="stack-detail" hidden><span class="dimension-index" aria-hidden="true">01</span><span data-category-title>Orquestación e integración</span><span class="dimension-indicator" aria-hidden="true">↗</span></button></h3>
+                            <ul class="tool-list"><li><span class="tool-icon"><img src="assets/icons/apacheairflow.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Apache Airflow</span></li><li><span class="tool-icon"><img src="assets/icons/azure-data-factory.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Azure Data Factory</span></li></ul>
+                            <p class="category-description" data-category-description>Coordinación de tareas y flujos de datos.</p>
+                        </article>
+                        <article class="dimension" data-category="transformation">
+                            <h3><span class="category-static"><span>02</span>Transformación</span><button type="button" data-category-button aria-pressed="false" aria-controls="stack-detail" hidden><span class="dimension-index" aria-hidden="true">02</span><span data-category-title>Transformación</span><span class="dimension-indicator" aria-hidden="true">↗</span></button></h3>
+                            <ul class="tool-list"><li><span class="tool-icon"><img src="assets/icons/dbt.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>dbt</span></li></ul>
+                            <p class="category-description" data-category-description>Organización de transformaciones y modelos por capas.</p>
+                        </article>
+                        <article class="dimension" data-category="languages">
+                            <h3><span class="category-static"><span>03</span>Lenguajes</span><button type="button" data-category-button aria-pressed="false" aria-controls="stack-detail" hidden><span class="dimension-index" aria-hidden="true">03</span><span data-category-title>Lenguajes</span><span class="dimension-indicator" aria-hidden="true">↗</span></button></h3>
+                            <ul class="tool-list"><li><span class="tool-icon"><img src="assets/icons/sql.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>SQL</span></li><li><span class="tool-icon"><img src="assets/icons/python.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Python</span></li></ul>
+                            <p class="category-description" data-category-description>Consultas, transformación, automatización y validación.</p>
+                        </article>
+                        <article class="dimension" data-category="warehouse">
+                            <h3><span class="category-static"><span>04</span>Bases de datos y warehouse</span><button type="button" data-category-button aria-pressed="false" aria-controls="stack-detail" hidden><span class="dimension-index" aria-hidden="true">04</span><span data-category-title>Bases de datos y warehouse</span><span class="dimension-indicator" aria-hidden="true">↗</span></button></h3>
+                            <ul class="tool-list"><li><span class="tool-icon"><img src="assets/icons/oracle.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Oracle</span></li><li><span class="tool-icon"><img src="assets/icons/microsoftsqlserver.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>SQL Server</span></li><li><span class="tool-icon"><img src="assets/icons/snowflake.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Snowflake</span></li></ul>
+                            <p class="category-description" data-category-description>Fuentes relacionales y plataforma analítica.</p>
+                        </article>
+                        <article class="dimension" data-category="analytics">
+                            <h3><span class="category-static"><span>05</span>Analytics y BI</span><button type="button" data-category-button aria-pressed="false" aria-controls="stack-detail" hidden><span class="dimension-index" aria-hidden="true">05</span><span data-category-title>Analytics y BI</span><span class="dimension-indicator" aria-hidden="true">↗</span></button></h3>
+                            <ul class="tool-list"><li><span class="tool-icon"><img src="assets/icons/powerbi.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Power BI</span></li><li><span class="tool-icon"><img src="assets/icons/tableau.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Tableau</span></li></ul>
+                            <p class="category-description" data-category-description>Exploración y presentación de información.</p>
+                        </article>
+                        <article class="dimension" data-category="development">
+                            <h3><span class="category-static"><span>06</span>Desarrollo y entorno</span><button type="button" data-category-button aria-pressed="false" aria-controls="stack-detail" hidden><span class="dimension-index" aria-hidden="true">06</span><span data-category-title>Desarrollo y entorno</span><span class="dimension-indicator" aria-hidden="true">↗</span></button></h3>
+                            <ul class="tool-list"><li><span class="tool-icon"><img src="assets/icons/git.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Git</span></li><li><span class="tool-icon"><img src="assets/icons/github.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>GitHub</span></li><li><span class="tool-icon"><img src="assets/icons/docker.svg" width="24" height="24" alt="" aria-hidden="true"></span><span>Docker</span></li></ul>
+                            <p class="category-description" data-category-description>Versionado, colaboración y entornos de trabajo.</p>
+                        </article>
+                        </div>
+                        <p class="map-note" aria-hidden="true">Cada herramienta,<br>una parte del sistema.</p>
+                    </div>
+                    <div class="stack-detail" id="stack-detail" aria-live="polite" aria-atomic="true" hidden><span class="detail-symbol" aria-hidden="true">↳</span><p data-stack-detail>Seleccioná una categoría para conocer su función.</p></div>
+                    <p class="map-footnote">Un mapa de herramientas inspirado en un esquema estrella.</p>
+                </div>
+                <div class="stack-foundations"><h3>Fundamentos y prácticas</h3><ul><li>ETL / ELT</li><li>Pipelines</li><li>Data warehousing</li><li>Modelado dimensional</li><li>Star schema</li><li>Agile / Scrum</li></ul></div>
+            </div>
+        </section>
+
+        <section id="metodo" class="section method" aria-labelledby="method-title">
+            <div class="container">
+                <p class="section-kicker">04 / CÓMO TRABAJO</p><h2 id="method-title">Del requerimiento a una fuente confiable.</h2>
+                <ol class="method-list"><li><span>01</span><div><h3>Entender</h3><p>Traduzco necesidades funcionales en reglas y definiciones de datos concretas.</p></div></li><li><span>02</span><div><h3>Construir</h3><p>Diseño flujos y modelos con capas claras, trazabilidad y control de versiones.</p></div></li><li><span>03</span><div><h3>Validar</h3><p>Compruebo calidad, integridad y consistencia antes de habilitar el consumo.</p></div></li></ol>
+                <div class="method-return" aria-hidden="true"><span>↳</span> Construir, validar, mejorar. <span>↰</span></div>
+            </div>
+        </section>
+
+        <section id="educacion" class="section education" aria-labelledby="education-title">
+            <div class="container education-grid">
+                <div><p class="section-kicker">05 / FORMACIÓN</p><h2 id="education-title">Aprendizaje continuo</h2></div>
+                <div class="education-details"><article><span class="detail-label">EDUCACIÓN</span><h3>Ingeniería en Sistemas de Información</h3><p>Universidad Tecnológica Nacional · En curso</p></article><article><span class="detail-label">IDIOMAS</span><h3>Español <small>Nativo</small></h3><h3>Inglés <small>Fluido</small></h3></article></div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact" aria-labelledby="contact-title">
+            <div class="container contact-inner"><p class="section-kicker">06 / CONTACTO</p><h2 id="contact-title">¿Construimos algo<br><em>con datos?</em></h2><p>Estoy abierto a nuevas oportunidades en Data Engineering y Analytics. Conectemos para conversar.</p><a href="https://linkedin.com/in/lautaro-fochesatto" class="button button-light" target="_blank" rel="noopener noreferrer">Conectar en LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una pestaña nueva)</span></a></div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><p>© <span data-year>2026</span> Lautaro Fochesatto</p><p>Data Engineer · Córdoba, Argentina</p><a href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a></div></footer>
+</body>
+</html>
